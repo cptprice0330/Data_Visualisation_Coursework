@@ -1,0 +1,2 @@
+import SphereFunction
+SphereFunction.sodiumPlot(10)
