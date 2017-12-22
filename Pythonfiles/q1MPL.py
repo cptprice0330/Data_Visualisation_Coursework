@@ -69,7 +69,7 @@ alpha/=100
 
 data = matplotlib.pyplot.figure(figsize = (10,10))
 figure = data.gca(projection = '3d')
-fig = data.add_subplot(10,projection = '3d')
+fig = data.add_subplot(100,projection = '3d')
 figure.plot_surface(x,y,z,color = (red,green,blue,alpha))
 matplotlib.pyplot.draw()
 matplotlib.pyplot.show()
