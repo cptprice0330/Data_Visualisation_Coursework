@@ -1,6 +1,6 @@
 from Pythonfiles import SphereFunction
 
-SphereFunction.sodiumPlot(20) # size must be > 4 to plot more than one, size/4 is number of sodium atoms per side
+SphereFunction.sodiumPlot(16) # size must be > 4 to plot more than one, size/4 is number of sodium atoms per side
 # 6 minutes to run 16 with quick mode
 import linecache
 
